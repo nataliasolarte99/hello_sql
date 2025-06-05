@@ -1,4 +1,10 @@
+#WHERE
 SELECT * FROM users where age = 18
+
+#ORDER BY
 SELECT * FROM users where email = "sara@gmail.com" order by age DESC
    ASC= Upward
    DESC= Downward
+
+#LIKE 
+SELECT * FROM hello_mysql.users where email like "%gmail.com";
