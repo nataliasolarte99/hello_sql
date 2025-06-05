@@ -14,3 +14,7 @@ SELECT * FROM hello_mysql.users where email like "%gmail.com";
 SELECT * FROM hello_mysql.users WHERE NOT email = "sara@gmail.com";
 SELECT * FROM hello_mysql.users WHERE NOT email = "sara@gmail.com" and age = 18;
 SELECT * FROM hello_mysql.users WHERE NOT email = "sara@gmail.com" or age = 18;
+
+#LIMIT
+
+SELECT * FROM hello_mysql.users where age= 18 LIMIT 2;
