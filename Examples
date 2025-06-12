@@ -18,3 +18,15 @@ SELECT * FROM hello_mysql.users WHERE NOT email = "sara@gmail.com" or age = 18;
 #LIMIT
 
 SELECT * FROM hello_mysql.users where age= 18 LIMIT 2;
+
+#COUNT
+
+SELECT count(age) FROM hello_mysql.users;
+
+#NULL
+
+SELECT * FROM users WHERE email is null;
+
+MIN /  MAX
+
+SELECT MAX (age) from users;
